@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(45deg,lightseagreen,floralwhite,lightseagreen);
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+h2{
+    background: linear-gradient(45deg,lightblue,green,lightblue);
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+}
+table{
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+
+}
+img:hover{
+    transform: scale(1.1);  /* Zooms in the image */
+    filter: brightness(1.2); /* Increases brightness */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}
+#head{
+    box-shadow: 1px 1px 5px black;
+    color: white;
+
+}
